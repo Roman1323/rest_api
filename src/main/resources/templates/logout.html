@@ -1,0 +1,10 @@
+
+        <div
+<!--                xmlns:sec="http://www.thymeleaf.org/extras/spring-security"-->
+             class="container-fluid"
+<!--             sec:authorize="isAuthenticated()"-->
+        >
+                <form th:action="@{/logout}" method="post">
+                    <button type="submit">Logout</button>
+                </form>
+        </div>
