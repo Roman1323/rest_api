@@ -1,2 +1,9 @@
-package com.softserve.itacademy.dto;public class AuthenticationDTO {
+package com.softserve.itacademy.dto;
+
+import lombok.Data;
+
+@Data
+public class AuthenticationDTO {
+    private String email;
+    private String password;
 }
